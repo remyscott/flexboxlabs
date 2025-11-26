@@ -9,3 +9,9 @@ main {
   align-items: center;
 }
 
+nav ul{
+  display:flex;
+  flex-direction: row;
+  gap: 48px;
+  list-style-type: none;
+}
