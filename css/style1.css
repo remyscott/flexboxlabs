@@ -15,3 +15,23 @@ nav ul{
   gap: 48px;
   list-style-type: none;
 }
+
+.vertical ul{
+  display:flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style-type: none;
+}
+
+.pane {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  flex: 1;
+}
+
+.mango {
+  width: 100%;
+}
